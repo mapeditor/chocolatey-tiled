@@ -1,0 +1,1 @@
+Install-ChocolateyPackage "tiled" "exe" "/S" "http://sourceforge.net/projects/tiled/files/tiled-qt/0.9.1/tiled-0.9.1-win32-setup.exe"

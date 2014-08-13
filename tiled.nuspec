@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>tiled</id>
+		<title>Tiled Map Editor</title>
+		<version>0.9.1</version>
+		<authors>Thorbjørn Lindeijer</authors>
+		<owners>Adrián Arroyo</owners>
+		<summary>tiled</summary>
+		<description>Your free, easy to use and flexible tile map editor. Package issues here: http://github.com/AdrianArroyoCalle/chocolatey-tiled</description>
+		<projectUrl>http://www.mapeditor.org</projectUrl>
+		<tags>map editor tiled 2d</tags>
+		<copyright />
+		<licenseUrl>https://github.com/bjorn/tiled/blob/master/LICENSE.GPL</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>http://www.mapeditor.org/img/tiled-logo-white.png</iconUrl>
+		<dependencies>
+			<!-- <dependency id="7zip.commandline" /> -->
+		</dependencies>
+		<releaseNotes>
+		0.9.1 - First release on Chocolatey
+		</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

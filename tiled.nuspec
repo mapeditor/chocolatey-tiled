@@ -3,13 +3,13 @@
 	<metadata>
 		<id>tiled</id>
 		<title>Tiled Map Editor</title>
-		<version>0.15.0</version>
+		<version>0.16.2</version>
 		<authors>Thorbjørn Lindeijer</authors>
 		<owners>Adrián Arroyo</owners>
 		<summary>tiled</summary>
 		<description>Your free, easy to use and flexible tile map editor. Package issues here: http://github.com/AdrianArroyoCalle/chocolatey-tiled</description>
 		<projectUrl>http://www.mapeditor.org</projectUrl>
-		<tags>map editor tiled 2d</tags>
+		<tags>admin map editor tiled 2d</tags>
 		<copyright />
 		<licenseUrl>https://github.com/bjorn/tiled/blob/master/LICENSE.GPL</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -9,6 +9,11 @@
 		<summary>tiled</summary>
 		<description>Your free, easy to use and flexible tile map editor. Package issues here: http://github.com/AdrianArroyoCalle/chocolatey-tiled</description>
 		<projectUrl>http://www.mapeditor.org</projectUrl>
+		<packageSourceUrl>https://github.com/AdrianArroyoCalle/chocolatey-tiled</packageSourceUrl>
+		<docsUrl>http://doc.mapeditor.org/</docsUrl>
+		<mailingListUrl>http://discourse.mapeditor.org/</mailingListUrl>
+		<projectSourceUrl>https://github.com/bjorn/tiled</projectSourceUrl>
+		<bugTrackerUrl>https://github.com/bjorn/tiled/issues</bugTrackerUrl>
 		<tags>admin map editor tiled 2d</tags>
 		<copyright />
 		<licenseUrl>https://github.com/bjorn/tiled/blob/master/LICENSE.GPL</licenseUrl>

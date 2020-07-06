@@ -3,9 +3,9 @@
 	<metadata>
 		<id>tiled</id>
 		<title>Tiled Map Editor</title>
-		<version>1.3.5</version>
+		<version>1.4.1</version>
 		<authors>Thorbjørn Lindeijer</authors>
-		<owners>Adrián Arroyo</owners>
+		<owners>Adrián Arroyo, Andrew Kerr</owners>
 		<summary>tiled</summary>
 		<description>Your free, easy to use and flexible tile map editor. Package issues here: http://github.com/AdrianArroyoCalle/chocolatey-tiled</description>
 		<projectUrl>http://www.mapeditor.org</projectUrl>

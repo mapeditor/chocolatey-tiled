@@ -13,4 +13,4 @@ jobs:
     - name: Chocolatey push
       uses: crazy-max/ghaction-chocolatey@v1
       with:
-        args: push *.nupkg
+        args: push *.nupkg --api-key ${{ secrets.CHOCOLATEY_API_KEY }}

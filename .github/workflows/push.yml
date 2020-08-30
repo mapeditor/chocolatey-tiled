@@ -10,7 +10,9 @@ jobs:
       uses: crazy-max/ghaction-chocolatey@v1
       with:
         args: pack
+    - name: Move file
+      run: mv .\tiled.*.nupkg tiled.nupkg
     - name: Chocolatey push
       uses: crazy-max/ghaction-chocolatey@v1
       with:
-        args: push *.nupkg --api-key ${{ secrets.CHOCOLATEY_API_KEY }}
+        args: push .\tiled.nupkg --api-key ${{ secrets.CHOCOLATEY_API_KEY }}

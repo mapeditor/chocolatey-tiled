@@ -1,4 +1,4 @@
-$url64 = "https://github.com/bjorn/tiled/releases/download/v1.4.3/Tiled-1.4.3-win64.msi"
-$checksum = "99BB2490C2E3480039CDA79B270E258E55FB3CF624164734B69333267DFBDA7B"
+$url64 = "https://github.com/bjorn/tiled/releases/download/v1.5.0/Tiled-1.5.0-win64.msi"
+$checksum = "6C04D0E6660467FF74B3F521117C278F9536CFD4536F1B9D1917092A3A6FD0EA"
 
 Install-ChocolateyPackage -PackageName "tiled" -FileType "msi" -SilentArgs "/quiet" -Url64bit "$url64" -ChecksumType "sha256" -Checksum $checksum -validExitCodes @(0,3010)

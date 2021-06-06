@@ -3,7 +3,7 @@
 	<metadata>
 		<id>tiled</id>
 		<title>Tiled Map Editor</title>
-		<version>1.6.0</version>
+		<version>1.7.0</version>
 		<authors>Thorbjørn Lindeijer</authors>
 		<owners>Adrián Arroyo, Andrew Kerr</owners>
 		<summary>tiled</summary>
@@ -19,9 +19,7 @@
 		<licenseUrl>https://github.com/bjorn/tiled/blob/master/LICENSE.GPL</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>http://www.mapeditor.org/img/tiled-logo-white.png</iconUrl>
-		<dependencies>
-			<!-- <dependency id="7zip.commandline" /> -->
-		</dependencies>
+		<dependencies/>
 		<releaseNotes>
 		See https://github.com/bjorn/tiled/releases
 		</releaseNotes>

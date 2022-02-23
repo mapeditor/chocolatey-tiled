@@ -1,4 +1,13 @@
-on: push
+name: Push to chocolatey.org
+
+on:
+  push:
+    branches:
+      - 'master'
+    paths:
+      - 'tiled.nuspec'
+      - 'tools/chocolateyInstall.ps1'
+  workflow_dispatch:
 
 jobs:
   push:
@@ -7,12 +16,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Chocolatey pack
-      uses: crazy-max/ghaction-chocolatey@v1
-      with:
-        args: pack
-    - name: Move file
-      run: mv .\tiled.*.nupkg tiled.nupkg
+      run: choco pack
     - name: Chocolatey push
-      uses: crazy-max/ghaction-chocolatey@v1
-      with:
-        args: push .\tiled.nupkg --api-key ${{ secrets.CHOCOLATEY_API_KEY }}
+      run: choco push --source https://push.chocolatey.org/ --api-key ${{ secrets.CHOCOLATEY_API_KEY }}

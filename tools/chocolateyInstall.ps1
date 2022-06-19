@@ -1,4 +1,4 @@
-$url64 = "https://github.com/mapeditor/tiled/releases/download/v1.8.5/Tiled-1.8.5-win64.msi"
-$checksum = "141B8EF00987AA4FF85F71281D1AFBAFD06B33BAED212EA99BB3EF514806AB8A"
+$url64 = "https://github.com/mapeditor/tiled/releases/download/v1.8.6/Tiled-1.8.6-win64.msi"
+$checksum = "A6CFA0EF0EB36E08D18B9C3B34E39D3589691E5340E29756AE4128A13079C9DA"
 
 Install-ChocolateyPackage -PackageName "tiled" -FileType "msi" -SilentArgs "/quiet" -Url64bit "$url64" -ChecksumType "sha256" -Checksum $checksum -validExitCodes @(0,3010)

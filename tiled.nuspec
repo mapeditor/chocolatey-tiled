@@ -7,21 +7,21 @@
 		<authors>Thorbjørn Lindeijer</authors>
 		<owners>Adrián Arroyo Calle (aarroyoc), Andrew Kerr (kerrjnr), Thorbjørn Lindeijer (bjorn)</owners>
 		<summary>tiled</summary>
-		<description>Your free, easy to use and flexible tile map editor. Package issues here: http://github.com/AdrianArroyoCalle/chocolatey-tiled</description>
-		<projectUrl>http://www.mapeditor.org</projectUrl>
-		<packageSourceUrl>https://github.com/AdrianArroyoCalle/chocolatey-tiled</packageSourceUrl>
-		<docsUrl>http://doc.mapeditor.org/</docsUrl>
-		<mailingListUrl>http://discourse.mapeditor.org/</mailingListUrl>
-		<projectSourceUrl>https://github.com/bjorn/tiled</projectSourceUrl>
-		<bugTrackerUrl>https://github.com/bjorn/tiled/issues</bugTrackerUrl>
+		<description>Your free, easy to use and flexible tile map editor. Package issues here: https://github.com/mapeditor/chocolatey-tiled</description>
+		<projectUrl>https://www.mapeditor.org</projectUrl>
+		<packageSourceUrl>https://github.com/mapeditor/chocolatey-tiled</packageSourceUrl>
+		<docsUrl>https://doc.mapeditor.org/</docsUrl>
+		<mailingListUrl>https://discourse.mapeditor.org/</mailingListUrl>
+		<projectSourceUrl>https://github.com/mapeditor/tiled</projectSourceUrl>
+		<bugTrackerUrl>https://github.com/mapeditor/tiled/issues</bugTrackerUrl>
 		<tags>admin map editor tiled 2d</tags>
 		<copyright />
-		<licenseUrl>https://github.com/bjorn/tiled/blob/master/LICENSE.GPL</licenseUrl>
+		<licenseUrl>https://github.com/mapeditor/tiled/blob/master/LICENSE.GPL</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<iconUrl>http://www.mapeditor.org/img/tiled-logo-white.png</iconUrl>
+		<iconUrl>https://www.mapeditor.org/img/tiled-logo-white.png</iconUrl>
 		<dependencies/>
 		<releaseNotes>
-		See https://github.com/bjorn/tiled/releases
+		See https://github.com/mapeditor/tiled/releases
 		</releaseNotes>
 	</metadata>
 	<files>
